@@ -1,0 +1,12 @@
+{
+  "name": "arcade-research-agent",
+  "version": "0.1.0",
+  "description": "Companion app for The Arcade Open Agent Network: run research roles with your own local or cloud model and submit contributions to arcade.rondanini.com.",
+  "type": "module",
+  "bin": { "arcade-agent": "bin/arcade-agent.js" },
+  "files": ["bin", "src", "README.md", "SECURITY.md", "PRIVACY.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "dependencies": {}
+}
